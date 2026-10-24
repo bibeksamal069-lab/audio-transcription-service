@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+# Real, free speech-to-text engine (optional; the default "mock" engine needs nothing):
+# faster-whisper>=1.0
+# Cloud alternative (optional): openai>=1.30
+# Also required on the computer: ffmpeg (see README)
+pytest>=8
+httpx>=0.27
